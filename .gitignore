@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données & artefacts (reproductibles : jamais dans Git)
+data/
+artifacts/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / outils locaux / scaffold uv (hors périmètre de la baseline)
+.idea/
+uv.lock
+pyproject.toml
+main.py
+.python-version
+
+# Compte rendu et énoncé (livrables locaux, pas du code)
+*.docx
+*.pdf
+.~lock.*
